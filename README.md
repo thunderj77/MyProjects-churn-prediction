@@ -107,9 +107,9 @@
 
 ### 1. Клонировать
 
-`git clone https://github.com/user/taxi-churn.git`
+`git clone https://github.com/thunderj77/MyProjects-churn-prediction.git`
 
-`cd taxi-churn`
+`cd churn-prediction`
 
 ### 2. Установить зависимости
 
@@ -127,18 +127,18 @@
 
 ### 5. Или открыть ноутбук
 
-`jupyter notebook notebooks/Project-1.ipynb`
+`jupyter notebook notebooks/churn-prediction.ipynb`
 
 ---
 
 ## Структура
 
-taxi-churn-prediction/
+churn-prediction/
 ├── README.md
 ├── requirements.txt
 ├── .env.example
 ├── notebooks/
-│   └── Project-1.ipynb
+│   └── churn-prediction.ipynb
 ├── src/
 │   ├── spark_aggregation.py
 │   ├── train_churn_model.py
