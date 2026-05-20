@@ -1,6 +1,6 @@
 # 🚖 Прогнозирование оттока клиентов Яндекс Такси
 
-> **Выпускной проект** — Яндекс Практикум (Мастерская)  
+> **Выпускной проект** – Яндекс Практикум (Мастерская)  
 > **Роль:** Аналитик данных / Data Analyst  
 > **Технологии:** PySpark, Airflow, ClickHouse, S3, Random Forest
 
@@ -65,8 +65,8 @@
 
 **DAG `taxi_data_spark_pipeline`:**
 
-1. **S3KeySensor** — ожидает появление нового файла `taxi_data.parquet` в S3
-2. **DataprocCreatePysparkJobOperator** — запускает PySpark-скрипт на кластере Yandex Dataproc
+1. **S3KeySensor** – ожидает появление нового файла `taxi_data.parquet` в S3
+2. **DataprocCreatePysparkJobOperator** – запускает PySpark-скрипт на кластере Yandex Dataproc
 3. Результат: обновлённая витрина в ClickHouse + сохранённая модель в S3
 
 ---
@@ -95,10 +95,10 @@
 
 **Компоненты:**
 
-- **S3** — хранилище исходных данных (Parquet) и обученной модели
-- **Airflow** — оркестрация: сенсор + запуск Spark-задачи
-- **Yandex Dataproc** — вычислительный кластер для PySpark
-- **ClickHouse** — целевая витрина с агрегированными метриками
+- **S3** – хранилище исходных данных (Parquet) и обученной модели
+- **Airflow** – оркестрация: сенсор + запуск Spark-задачи
+- **Yandex Dataproc** – вычислительный кластер для PySpark
+- **ClickHouse** – целевая витрина с агрегированными метриками
 
 ---
 
