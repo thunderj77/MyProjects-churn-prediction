@@ -1,7 +1,7 @@
 # 🚖 Прогнозирование оттока клиентов Яндекс Такси
 
 > **Выпускной проект** — Яндекс Практикум (Мастерская)  
-> **Роль:** Аналитик данных / Data Engineer  
+> **Роль:** Аналитик данных / Data Analyst  
 > **Технологии:** PySpark, Airflow, ClickHouse, S3, Random Forest
 
 ![Python](https://img.shields.io/badge/python-3.9+-blue?logo=python)
